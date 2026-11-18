@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Электромонтаж и наладка промышленного оборудования</title>
+<meta name="description" content="Электромонтажные работы в квартирах, домах, магазинах. Подключение и ремонт промышленного оборудования: пищевое, лесопильное, подъёмно-транспортное. Выезд на объект.">
+<style>
+  :root{--accent:#f5a623;--dark:#1b2430;--dark2:#232f3f;--text:#e8ecf1;--muted:#a9b4c0}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:'Segoe UI',Arial,sans-serif;background:var(--dark);color:var(--text);line-height:1.6}
+  a{color:var(--accent);text-decoration:none}
+  .container{max-width:960px;margin:0 auto;padding:0 20px}
+  header{padding:60px 0 40px;text-align:center;background:linear-gradient(135deg,var(--dark) 0%,var(--dark2) 100%)}
+  header h1{font-size:2rem;margin-bottom:12px}
+  header p{color:var(--muted);max-width:640px;margin:0 auto}
+  .badges{margin-top:20px;display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+  .badge{background:var(--dark2);border:1px solid #334155;border-radius:20px;padding:6px 16px;font-size:.9rem;color:var(--muted)}
+  .cta{display:inline-block;margin-top:24px;background:var(--accent);color:#1b2430;font-weight:700;padding:14px 34px;border-radius:8px;font-size:1.1rem}
+  section{padding:50px 0}
+  h2{font-size:1.5rem;margin-bottom:24px;text-align:center}
+  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+  .card{background:var(--dark2);border-radius:12px;padding:24px;border:1px solid #2e3a4a}
+  .card h3{color:var(--accent);margin-bottom:10px;font-size:1.1rem}
+  .card ul{list-style:none}
+  .card li{padding:4px 0 4px 22px;position:relative;color:var(--muted)}
+  .card li::before{content:"✓";position:absolute;left:0;color:var(--accent)}
+  .why{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;text-align:center}
+  .why .num{font-size:2rem;color:var(--accent);font-weight:700}
+  .steps{counter-reset:s}
+  .step{display:flex;gap:16px;margin-bottom:16px;align-items:flex-start}
+  .step::before{counter-increment:s;content:counter(s);min-width:36px;height:36px;border-radius:50%;background:var(--accent);color:#1b2430;display:flex;align-items:center;justify-content:center;font-weight:700}
+  .step p{color:var(--muted)}
+  .contact{background:var(--dark2);text-align:center}
+  .contact .phone{font-size:1.6rem;font-weight:700;display:block;margin:10px 0}
+  .messengers{margin-top:14px;display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+  .msg{padding:10px 22px;border-radius:8px;background:#334155;color:var(--text);font-weight:600}
+  footer{padding:24px 0;text-align:center;color:#6b7684;font-size:.85rem}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <h1>Электромонтаж и наладка промышленного оборудования</h1>
+    <p>Выполняю электромонтажные работы любой сложности: квартиры, частные дома, магазины. Подключаю и ремонтирую промышленное оборудование — пищевое, лесопильное, подъёмно-транспортное. Инженерное образование, опыт наладки промоборудования.</p>
+    <div class="badges">
+      <span class="badge">Радиотехническое образование</span>
+      <span class="badge">Выезд на объект</span>
+      <span class="badge">Частник и юрлица</span>
+    </div>
+    <br>
+    <a class="cta" href="tel:+79000000000">Позвонить: +7 (900) 000-00-00</a>
+  </div>
+</header>
+
+<section>
+  <div class="container">
+    <h2>Услуги</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Электромонтаж</h3>
+        <ul>
+          <li>Квартиры: проводка под ключ, замена щитов, розетки и выключатели</li>
+          <li>Частные дома: ввод, освещение, силовые линии, заземление</li>
+          <li>Магазины и офисы: освещение, розеточные группы, щитовое оборудование</li>
+          <li>Диагностика и устранение неисправностей</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Промышленное оборудование</h3>
+        <ul>
+          <li>Подключение и пусконаладка под ключ</li>
+          <li>Пищевое оборудование</li>
+          <li>Лесопильное оборудование</li>
+          <li>Подъёмно-транспортное оборудование (краны, тельферы, лебёдки)</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Ремонт и сервис</h3>
+        <ul>
+          <li>Поиск и устранение неисправностей</li>
+          <li>Ремонт электрооборудования и шкафов управления</li>
+          <li>Аварийный выезд</li>
+          <li>Консультация и оценка перед покупкой оборудования</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="background:var(--dark2)">
+  <div class="container">
+    <h2>Почему я</h2>
+    <div class="why">
+      <div><div class="num">01</div><p>Инженерное радиотехническое образование — понимаю оборудование, а не просто «кручу провода»</p></div>
+      <div><div class="num">02</div><p>Опыт наладки промоборудования: пищевое, лесопильное, подъёмно-транспортное</p></div>
+      <div><div class="num">03</div><p>Сроки и цена известны до начала работ — без сюрпризов в конце</p></div>
+      <div><div class="num">04</div><p>Выезд на объект и оценка бесплатно</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2>Как проходит работа</h2>
+    <div class="steps">
+      <div class="step"><div><p><strong>Звонок или сообщение.</strong> Опишите задачу — квартира, дом, магазин или промоборудование.</p></div></div>
+      <div class="step"><div><p><strong>Выезд и оценка.</strong> Приезжаю на объект, смотрю объём работ, называю точную цену и сроки.</p></div></div>
+      <div class="step"><div><p><strong>Выполнение работ.</strong> Делаю аккуратно, по согласованию. Показываю результат, вы сдаёте работу.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="contact">
+  <div class="container">
+    <h2>Связаться</h2>
+    <p>Звоните или пишите — отвечу быстро.</p>
+    <a class="phone" href="tel:+79000000000">+7 (900) 000-00-00</a>
+    <div class="messengers">
+      <a class="msg" href="https://wa.me/79000000000">WhatsApp</a>
+      <a class="msg" href="https://t.me/username">Telegram</a>
+      <a class="msg" href="mailto:mail@mail.ru">Почта</a>
+    </div>
+    <p style="margin-top:16px;color:var(--muted)">Город: укажите ваш город и район выезда</p>
+  </div>
+</section>
+
+<footer>
+  <div class="container">© 2026 Электромонтаж и наладка промышленного оборудования</div>
+</footer>
+
+</body>
+</html>
